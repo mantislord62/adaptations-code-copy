@@ -157,8 +157,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.9375, y: 2.09375}
+  m_Offset: {x: 0.022027373, y: 0.017359257}
+  m_Size: {x: 0.69519925, y: 2.0590315}
   m_Direction: 0
 --- !u!114 &3761317496814399654
 MonoBehaviour:
@@ -206,10 +206,10 @@ MonoBehaviour:
   groundDistance: 0
   wallDistance: 0.2
   ceilingDistance: 0.05
-  _isGrounded: 1
-  _isOnWall: 1
+  _isGrounded: 0
+  _isOnWall: 0
   _isInAir: 0
-  _isOnCeiling: 1
+  _isOnCeiling: 0
 --- !u!95 &7386913144307023992
 Animator:
   serializedVersion: 7
@@ -246,7 +246,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageableHit:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3761317496814399654}
+        m_TargetAssemblyTypeName: knight, Assembly-CSharp
+        m_MethodName: OnHit
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   _maxHealth: 100
   _health: 100
   _isAlive: 1

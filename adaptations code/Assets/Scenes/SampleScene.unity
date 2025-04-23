@@ -3659,30 +3659,6 @@ PrefabInstance:
       propertyPath: attackDamage
       value: 15
       objectReference: {fileID: 0}
-    - target: {fileID: 1886026686917789088, guid: 7754b717325bf7e4dabd2e4061499ca5, type: 3}
-      propertyPath: m_Size.x
-      value: 0.50777876
-      objectReference: {fileID: 0}
-    - target: {fileID: 1886026686917789088, guid: 7754b717325bf7e4dabd2e4061499ca5, type: 3}
-      propertyPath: m_Size.y
-      value: 1.7897296
-      objectReference: {fileID: 0}
-    - target: {fileID: 1886026686917789088, guid: 7754b717325bf7e4dabd2e4061499ca5, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.0016575456
-      objectReference: {fileID: 0}
-    - target: {fileID: 1886026686917789088, guid: 7754b717325bf7e4dabd2e4061499ca5, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.0988971
-      objectReference: {fileID: 0}
-    - target: {fileID: 3160626461887213869, guid: 7754b717325bf7e4dabd2e4061499ca5, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 663563675, guid: a319a558cd070a5439f4bac44509fbfb, type: 3}
-    - target: {fileID: 3160626461887213869, guid: 7754b717325bf7e4dabd2e4061499ca5, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3531929551651295817, guid: 7754b717325bf7e4dabd2e4061499ca5, type: 3}
       propertyPath: m_Name
       value: Player
@@ -3696,20 +3672,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4414967189118830488, guid: 7754b717325bf7e4dabd2e4061499ca5, type: 3}
-      propertyPath: walkSpeed
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4414967189118830488, guid: 7754b717325bf7e4dabd2e4061499ca5, type: 3}
       propertyPath: _isRunning
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4414967189118830488, guid: 7754b717325bf7e4dabd2e4061499ca5, type: 3}
-      propertyPath: jumpImpulse
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 4414967189118830488, guid: 7754b717325bf7e4dabd2e4061499ca5, type: 3}
-      propertyPath: airWalkSpeed
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4670423794017112879, guid: 7754b717325bf7e4dabd2e4061499ca5, type: 3}
       propertyPath: knockback.y
@@ -3721,14 +3685,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6906808423785006282, guid: 7754b717325bf7e4dabd2e4061499ca5, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7172047946203326887, guid: 7754b717325bf7e4dabd2e4061499ca5, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: ac10e4debd3cef8409eb8e058432b5a1, type: 2}
-    - target: {fileID: 7172047946203326887, guid: 7754b717325bf7e4dabd2e4061499ca5, type: 3}
-      propertyPath: m_GravityScale
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7266927850601462203, guid: 7754b717325bf7e4dabd2e4061499ca5, type: 3}
@@ -3743,22 +3699,6 @@ PrefabInstance:
       propertyPath: attackDamage
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 7474510810382297002, guid: 7754b717325bf7e4dabd2e4061499ca5, type: 3}
-      propertyPath: _isOnWall
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7474510810382297002, guid: 7754b717325bf7e4dabd2e4061499ca5, type: 3}
-      propertyPath: _isOnCeiling
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7474510810382297002, guid: 7754b717325bf7e4dabd2e4061499ca5, type: 3}
-      propertyPath: groundDistance
-      value: 0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 7817594157183376652, guid: 7754b717325bf7e4dabd2e4061499ca5, type: 3}
-      propertyPath: m_Actions
-      value: 
-      objectReference: {fileID: -944628639613478452, guid: a4c4d262328d28e45b48020680376f8a, type: 3}
     - target: {fileID: 7817594157183376652, guid: 7754b717325bf7e4dabd2e4061499ca5, type: 3}
       propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 0
@@ -3778,18 +3718,6 @@ PrefabInstance:
     - target: {fileID: 7817594157183376652, guid: 7754b717325bf7e4dabd2e4061499ca5, type: 3}
       propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 8141789402248046797, guid: 7754b717325bf7e4dabd2e4061499ca5, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8141789402248046797, guid: 7754b717325bf7e4dabd2e4061499ca5, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8141789402248046797, guid: 7754b717325bf7e4dabd2e4061499ca5, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8141789402248046797, guid: 7754b717325bf7e4dabd2e4061499ca5, type: 3}
       propertyPath: m_LocalPosition.x

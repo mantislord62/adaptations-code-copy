@@ -178,8 +178,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 46af2e58049ba8c498153d9c037b0b7f, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 663563675, guid: a319a558cd070a5439f4bac44509fbfb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -206,7 +206,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: ac10e4debd3cef8409eb8e058432b5a1, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -229,9 +229,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f31294808c282548bad15d42fe32068, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 5
+  walkSpeed: 3
   runSpeed: 8
-  jumpImpulse: 10
+  jumpImpulse: 7
   airWalkSpeed: 3
   _isMoving: 0
   _isFacingRight: 1
@@ -247,7 +247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: 0}
+  m_Actions: {fileID: -944628639613478452, guid: a4c4d262328d28e45b48020680376f8a, type: 3}
   m_NotificationBehavior: 2
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -429,8 +429,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.000000059604645, y: -0.27545238}
-  m_Size: {x: 0.8525177, y: 1.6788747}
+  m_Offset: {x: -0.0016575456, y: -0.0988971}
+  m_Size: {x: 0.50777876, y: 1.7897296}
   m_Direction: 0
 --- !u!114 &7474510810382297002
 MonoBehaviour:
@@ -458,13 +458,13 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
-  groundDistance: 0
+  groundDistance: 0.05
   wallDistance: 0.2
   ceilingDistance: 0.05
   _isGrounded: 1
-  _isOnWall: 1
+  _isOnWall: 0
   _isInAir: 0
-  _isOnCeiling: 1
+  _isOnCeiling: 0
 --- !u!114 &8258243222031167924
 MonoBehaviour:
   m_ObjectHideFlags: 0
