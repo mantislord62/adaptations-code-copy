@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 1037
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -353,7 +353,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 24
+    y: 79
     width: 218
     height: 599
   m_SerializedDataModeController:
@@ -370,9 +370,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: e8faffff2eb50000
+      m_SelectedIDs: 26d50000
+      m_LastClickedID: 54566
+      m_ExpandedIDs: 9e24ffffc02affff8cb50000ced40000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -418,8 +418,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 220
-    y: 24
+    x: 219
+    y: 79
     width: 1226
     height: 599
   m_SerializedDataModeController:
@@ -990,9 +990,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -5.8055744, y: -0.89771104, z: 0.011780373}
+    m_Target: {x: 8.2458725, y: 1.9301511, z: -0.16644835}
     speed: 2
-    m_Value: {x: -5.8055744, y: -0.89771104, z: 0.011780373}
+    m_Value: {x: 8.2458725, y: 1.9301511, z: -0.16644835}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1042,9 +1042,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 3.894643
+    m_Target: 20.909191
     speed: 2
-    m_Value: 3.894643
+    m_Value: 20.909191
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1197,7 +1197,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 649
+    y: 704
     width: 1446
     height: 330
   m_SerializedDataModeController:
@@ -1222,7 +1222,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Art/ActualGameStuff/New Folder/other tiles folder
+    - Assets/Art/ActualGameStuff/New Folder/Objects
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1232,7 +1232,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Art/ActualGameStuff/New Folder/other tiles folder
+  - Assets/Art/ActualGameStuff/New Folder/Objects
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\kcoffey3430\Documents\GitHub\adptcrc\adaptations-code-idunnoman\adaptations
     code
@@ -1240,9 +1240,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 02bc0000
-    m_LastClickedID: 48130
-    m_ExpandedIDs: 00000000acb80000aeb80000b0b80000b2b80000b4b80000
+    m_SelectedIDs: ccbc0000
+    m_LastClickedID: 48332
+    m_ExpandedIDs: 00000000acb80000aeb80000b0b80000b2b80000b4b80000bebc000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1300,7 +1300,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c623000074e40000643501000e36010024dd00007abd0000d0b40000cab90000e6f70000d6f7000012c00000b0e000007e0f01009eb50000e2d70000eab50000c6b500001cca0000
+    m_ExpandedInstanceIDs: c623000074e40000643501000e36010024dd00007abd0000d0b40000cab90000e6f70000d6f70000b0e000007e0f01009eb50000e2d70000eab50000c6b500001cca0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1628,7 +1628,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 55574
+  m_LastSelectedObjectID: 54594
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1650,8 +1650,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Tile Palette\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1448
-    y: 24
+    x: 1447
+    y: 79
     width: 472
     height: 955
   m_SerializedDataModeController:
